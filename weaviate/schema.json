@@ -1,0 +1,67 @@
+{
+      "class": "Job",
+      "description": "A class to store job postings",
+      "properties": [
+        {
+          "name": "title",
+          "dataType": ["text"],
+          "description": "The job title"
+        },
+        {
+          "name": "company",
+          "dataType": ["text"],
+          "description": "The company offering the job"
+        },
+        {
+          "name": "company_link",
+          "dataType": ["text"],
+          "description": "Link to the company"
+        },
+        {
+          "name": "place",
+          "dataType": ["text"],
+          "description": "Location of the job"
+        },
+        {
+          "name": "date",
+          "dataType": ["text"],
+          "description": "Date of the job posting"
+        },
+        {
+          "name": "apply_link",
+          "dataType": ["text"],
+          "description": "Link to apply for the job"
+        },
+        {
+          "name": "post_link",
+          "dataType": ["text"],
+          "description": "Link to the job posting"
+        },
+        {
+          "name": "seniority_level",
+          "dataType": ["text"],
+          "description": "Seniority level required for the job"
+        },
+        {
+          "name": "employment_type",
+          "dataType": ["text"],
+          "description": "Type of employment"
+        },
+        {
+          "name": "description",
+          "dataType": ["text"],
+          "description": "Description of the job"
+        },
+        {
+          "name": "job_title_id",
+          "dataType": ["int"],
+          "description": "ID of the job title"
+        },
+        {
+          "name": "job_desc_id",
+          "dataType": ["int"],
+          "description": "ID of the job description"
+          
+          }
+        ]
+      }
